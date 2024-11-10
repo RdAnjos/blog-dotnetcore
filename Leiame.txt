@@ -1,0 +1,36 @@
+NESTE PROJETO ESTAMOS UTILIZANDO AS FEATURES ABAIXO:
+    - Dapper
+    - Dapper Contrib
+    - SQLClient
+
+
+[ORIENTAÇÃO A OBJETOS] (OO)
+    - Separar os items em Objetos com Propriedades,Metodos,Eventos p/ reutilizar esses items em diferentes lugares.
+
+[REPOSITORY PATTERN]
+    - Repositorio para cada uma das Entidades/Modelos
+    - Um ponto unico para meu CRUD
+
+[Classes Static]
+    - Uma classe que não precisa ser INSTANCIADA, sobe junto com a aplicação;
+
+--------------------------------------------------------------------------------------
+[Challanges]
+    -Cadastrar um Usuario
+    -Cadastrar um Perfil~
+    -Vincular um Usuario a um Perfil
+
+    -Cadastrar uma Categoria
+
+    -Cadastrar uma Tag
+
+    -Cadastrar um Post
+
+    -Vincular um POST a uma Tag
+
+    -Listar os Usuarios(nome,email e perfis separados por virgula)
+    -Listar Categorias com quantidade de Posts
+    -Listar Tags com quantidade de Posts
+    -Listar os Posts de uma Categoria
+    -Listar todos os Posts com sua Categoria
+    -Listar os Posts com suas Tags(Separados por virgula)
