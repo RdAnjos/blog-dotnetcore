@@ -56,6 +56,7 @@ C:\dev\balta.io\Acesso a Dados com .NET - Dapper - SQL Server\Mão Na Massa\Blog
 C:\dev\balta.io\Acesso a Dados com .NET - Dapper - SQL Server\Mão Na Massa\Blog\obj\Debug\net6.0\Blog.AssemblyInfoInputs.cache
 C:\dev\balta.io\Acesso a Dados com .NET - Dapper - SQL Server\Mão Na Massa\Blog\obj\Debug\net6.0\Blog.AssemblyInfo.cs
 C:\dev\balta.io\Acesso a Dados com .NET - Dapper - SQL Server\Mão Na Massa\Blog\obj\Debug\net6.0\Blog.csproj.CoreCompileInputs.cache
+C:\dev\balta.io\Acesso a Dados com .NET - Dapper - SQL Server\Mão Na Massa\Blog\obj\Debug\net6.0\Blog.sourcelink.json
 C:\dev\balta.io\Acesso a Dados com .NET - Dapper - SQL Server\Mão Na Massa\Blog\obj\Debug\net6.0\Blog.csproj.Up2Date
 C:\dev\balta.io\Acesso a Dados com .NET - Dapper - SQL Server\Mão Na Massa\Blog\obj\Debug\net6.0\Blog.dll
 C:\dev\balta.io\Acesso a Dados com .NET - Dapper - SQL Server\Mão Na Massa\Blog\obj\Debug\net6.0\refint\Blog.dll

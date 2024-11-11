@@ -34,3 +34,11 @@ NESTE PROJETO ESTAMOS UTILIZANDO AS FEATURES ABAIXO:
     -Listar os Posts de uma Categoria
     -Listar todos os Posts com sua Categoria
     -Listar os Posts com suas Tags(Separados por virgula)
+
+-------------------------------------------------------------------------------------
+TIPS - Dicas de Projetos para Fazer
+    - Contas a Pagar & Receber
+    - Curso do Balta
+    - Lista de Contatos
+    - Agenda Telefonica
+    

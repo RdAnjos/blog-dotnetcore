@@ -1,4 +1,5 @@
 using Blog.Screens.TagScreens;
+using Blog.Screens.UserScreens;
 
 
 namespace Blog.Screens.HomeScreens
@@ -30,6 +31,7 @@ namespace Blog.Screens.HomeScreens
             switch (option)
             {
                 case 1:
+                    MenuUserScreen.Load();
                     break;
                 case 2:
                     break;
