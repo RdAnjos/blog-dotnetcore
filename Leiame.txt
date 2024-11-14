@@ -21,19 +21,21 @@ NESTE PROJETO ESTAMOS UTILIZANDO AS FEATURES ABAIXO:
     -Cadastrar um Usuario
     -Cadastrar uma Tag
     -Listar os Usuarios(nome,email e perfis separados por virgula)
-
-
-
-    -Cadastrar um Perfil~
-    -Vincular um Usuario a um Perfil
     -Cadastrar uma Categoria
 
-    -Cadastrar um Post
+----------------------- TO DO -----------------------------------------
+    -Cadastrar um Perfil~
+    -Vincular um Usuario a um Perfil
 
+
+
+    -Cadastrar um Post
     -Vincular um POST a uma Tag
 
 
-    -Listar Categorias com quantidade de Posts
+    [-Listar Categorias com quantidade de Posts]
+
+
     -Listar Tags com quantidade de Posts
     -Listar os Posts de uma Categoria
     -Listar todos os Posts com sua Categoria

@@ -1,3 +1,4 @@
+using Blog.Screens.CategoryScreens;
 using Blog.Screens.TagScreens;
 using Blog.Screens.UserScreens;
 
@@ -13,6 +14,7 @@ namespace Blog.Screens.HomeScreens
         private static void Load()
         {
             Console.Clear();
+
             System.Console.WriteLine("Meu Blog.");
             System.Console.WriteLine("-------------------");
             System.Console.WriteLine("O que deseja fazer?");
@@ -36,6 +38,7 @@ namespace Blog.Screens.HomeScreens
                 case 2:
                     break;
                 case 3:
+                    MenuCategoryScreen.Load();
                     break;
                 case 4:
                     MenuTagScreen.Load();
