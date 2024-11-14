@@ -13,7 +13,7 @@ namespace Blog.Screens.HomeScreens
         }
         private static void Load()
         {
-            Console.Clear();
+            //Console.Clear();
 
             System.Console.WriteLine("Meu Blog.");
             System.Console.WriteLine("-------------------");

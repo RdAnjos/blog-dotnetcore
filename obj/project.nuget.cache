@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HpijsFCb1q4=",
+  "dgSpecHash": "PrWlNyAf4ag=",
   "success": true,
-  "projectFilePath": "C:\\dev\\balta.io\\Acesso a Dados com .NET - Dapper - SQL Server\\Mão Na Massa\\Blog\\Blog.csproj",
+  "projectFilePath": "c:\\dev\\balta.io\\Acesso a Dados com .NET - Dapper - SQL Server\\Mão Na Massa\\Blog\\Blog.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rodri\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\rodri\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

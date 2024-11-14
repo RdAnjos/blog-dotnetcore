@@ -22,9 +22,14 @@ NESTE PROJETO ESTAMOS UTILIZANDO AS FEATURES ABAIXO:
     -Cadastrar uma Tag
     -Listar os Usuarios(nome,email e perfis separados por virgula)
     -Cadastrar uma Categoria
+    -Listar Categorias com quantidade de Posts
 
 ----------------------- TO DO -----------------------------------------
-    -Cadastrar um Perfil~
+       --DOING
+        -Cadastrar um Perfil~
+
+    
+
     -Vincular um Usuario a um Perfil
 
 
@@ -33,7 +38,6 @@ NESTE PROJETO ESTAMOS UTILIZANDO AS FEATURES ABAIXO:
     -Vincular um POST a uma Tag
 
 
-    [-Listar Categorias com quantidade de Posts]
 
 
     -Listar Tags com quantidade de Posts

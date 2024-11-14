@@ -31,6 +31,7 @@ namespace Blog.Repositories
                 (user, role) =>
                 {
                     var usr = users.FirstOrDefault(x => x.Id == user.Id);
+
                     if (usr == null)
                     {
                         usr = user;
