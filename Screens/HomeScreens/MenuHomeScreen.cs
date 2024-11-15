@@ -1,4 +1,5 @@
 using Blog.Screens.CategoryScreens;
+using Blog.Screens.RoleScreens;
 using Blog.Screens.TagScreens;
 using Blog.Screens.UserScreens;
 
@@ -7,20 +8,20 @@ namespace Blog.Screens.HomeScreens
 {
     public class MenuHomeScreen
     {
-        public static void LoadMe()
+        public static void Load()
         {
-            Load();
+            Menu();
         }
-        private static void Load()
+        private static void Menu()
         {
-            //Console.Clear();
+            Console.Clear();
 
-            System.Console.WriteLine("Meu Blog.");
+            System.Console.WriteLine("MY CURRENT BLOG.");
             System.Console.WriteLine("-------------------");
             System.Console.WriteLine("O que deseja fazer?");
             System.Console.WriteLine();
             System.Console.WriteLine("1 - Gestão de Usuario");
-            System.Console.WriteLine("2 - Gestão de Perfil");
+            System.Console.WriteLine("2 - Gestão de Perfil/Role");
             System.Console.WriteLine("3 - Gestão de Categoria");
             System.Console.WriteLine("4 - Gestão de Tag");
             System.Console.WriteLine("5 - Vincular Perfil/Usuario");
@@ -36,6 +37,7 @@ namespace Blog.Screens.HomeScreens
                     MenuUserScreen.Load();
                     break;
                 case 2:
+                    MenuRoleScreen.Load();
                     break;
                 case 3:
                     MenuCategoryScreen.Load();
@@ -49,7 +51,6 @@ namespace Blog.Screens.HomeScreens
                     break;
                 case 7:
                     break;
-
                 default:
                     Load();
                     break;

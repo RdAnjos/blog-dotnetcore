@@ -1,0 +1,13 @@
+# Ignorar pastas específicas
+bin/
+obj/
+
+# Ignorar arquivos temporários e de build
+*.log
+*.tmp
+*.out
+*.class
+
+# Ignorar arquivos de sistema
+.DS_Store
+Thumbs.db
