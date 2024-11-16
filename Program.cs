@@ -12,7 +12,7 @@ namespace Blog
             Database.Connection = new SqlConnection(CONNECTION_STRING);
             Database.Connection.Open();
 
-            MenuHomeScreen.LoadMe();
+            MenuHomeScreen.Load();
 
 
             Console.ReadKey();

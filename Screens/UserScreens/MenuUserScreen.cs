@@ -16,7 +16,7 @@ namespace Blog.Screens.UserScreens
 
         private static void Menu()
         {
-            Console.Clear();
+            //Console.Clear();
 
             System.Console.WriteLine("Menu USER");
             System.Console.WriteLine("---------");
@@ -26,7 +26,8 @@ namespace Blog.Screens.UserScreens
             System.Console.WriteLine("2 - Create a new User");
             System.Console.WriteLine("3 - Update a User");
             System.Console.WriteLine("4 - Delete a User");
-            System.Console.WriteLine("5 - Return to MAIN MENU");
+            System.Console.WriteLine("5 - Return to Main Menu");
+
             System.Console.WriteLine();
             System.Console.WriteLine();
             var option = int.Parse(Console.ReadLine());
@@ -46,7 +47,7 @@ namespace Blog.Screens.UserScreens
                     DeleteUserScreen.Load();
                     break;
                 case 5:
-                    MenuHomeScreen.LoadMe();
+                    MenuHomeScreen.Load();
                     break;
                 default:
                     Load();

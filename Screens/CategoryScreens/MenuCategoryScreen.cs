@@ -43,7 +43,7 @@ namespace Blog.Screens.CategoryScreens
                     DeleteCagegoryScreen.Load();
                     break;
                 case 5:
-                    MenuHomeScreen.LoadMe();
+                    MenuHomeScreen.Load();
                     break;
                 default:
                     Load();

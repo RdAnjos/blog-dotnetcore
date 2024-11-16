@@ -40,6 +40,12 @@ namespace Blog.Screens.UserScreens
                     break;
             }
 
+            System.Console.WriteLine();
+            System.Console.WriteLine();
+            System.Console.WriteLine("Press Any Key to return to the Menu...");
+            Console.ReadKey();
+            MenuUserScreen.Load();
+
         }
         private static void ListAllUsers()
         {
@@ -53,12 +59,6 @@ namespace Blog.Screens.UserScreens
             {
                 System.Console.WriteLine($"{user.Id} - {user.Name} - {user.Email}");
             }
-            System.Console.WriteLine();
-            System.Console.WriteLine();
-            System.Console.WriteLine("Press Any Key to return to the Menu...");
-            Console.ReadKey();
-
-            MenuUserScreen.Load();
         }
 
         private static void ListUserAndRole(SqlConnection connection)

@@ -46,7 +46,7 @@ namespace Blog.Screens.TagScreens
                     break;
                 case 5:
                     //Remove uma tag
-                    MenuHomeScreen.LoadMe();
+                    MenuHomeScreen.Load();
                     break;
                 default:
                     Load(); break;

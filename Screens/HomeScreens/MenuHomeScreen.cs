@@ -1,5 +1,6 @@
 using Blog.Screens.CategoryScreens;
 using Blog.Screens.RoleScreens;
+using Blog.Screens.RoleUserScreen;
 using Blog.Screens.TagScreens;
 using Blog.Screens.UserScreens;
 
@@ -14,7 +15,7 @@ namespace Blog.Screens.HomeScreens
         }
         private static void Menu()
         {
-            Console.Clear();
+            //Console.Clear();
 
             System.Console.WriteLine("MY CURRENT BLOG.");
             System.Console.WriteLine("-------------------");
@@ -26,7 +27,8 @@ namespace Blog.Screens.HomeScreens
             System.Console.WriteLine("4 - Gestão de Tag");
             System.Console.WriteLine("5 - Vincular Perfil/Usuario");
             System.Console.WriteLine("6 - Vincular Post/Tag");
-            System.Console.WriteLine("7 - Relatórios");
+            System.Console.WriteLine("7 - Reports");
+            System.Console.WriteLine("8 - Exit");
             System.Console.WriteLine();
             System.Console.WriteLine();
             var option = short.Parse(Console.ReadLine()!);
@@ -46,10 +48,14 @@ namespace Blog.Screens.HomeScreens
                     MenuTagScreen.Load();
                     break;
                 case 5:
+                    MenuRoleUserScreen.Run();
                     break;
                 case 6:
                     break;
                 case 7:
+                    break;
+                case 8:
+                    CloseHomeScreen.Run();
                     break;
                 default:
                     Load();

@@ -23,14 +23,18 @@ NESTE PROJETO ESTAMOS UTILIZANDO AS FEATURES ABAIXO:
     -Listar os Usuarios(nome,email e perfis separados por virgula)
     -Cadastrar uma Categoria
     -Listar Categorias com quantidade de Posts
+    -Cadastrar um Perfil
+    -Ler Perfil (Todos e por Id)
+    -Vincular um Usuario a um Perfil
 
 ----------------------- TO DO -----------------------------------------
        --DOING
-        -Cadastrar um Perfil~
+        Perfil/Roles
+
 
     
 
-    -Vincular um Usuario a um Perfil
+
 
 
 
