@@ -1,4 +1,5 @@
 using Blog.Screens.CategoryScreens;
+using Blog.Screens.PostTagScreens;
 using Blog.Screens.RoleScreens;
 using Blog.Screens.RoleUserScreen;
 using Blog.Screens.TagScreens;
@@ -51,6 +52,7 @@ namespace Blog.Screens.HomeScreens
                     MenuRoleUserScreen.Run();
                     break;
                 case 6:
+                    MenuPostTagScreen.Load();
                     break;
                 case 7:
                     break;
