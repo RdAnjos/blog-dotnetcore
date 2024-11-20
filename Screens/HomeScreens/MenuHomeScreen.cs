@@ -1,4 +1,5 @@
 using Blog.Screens.CategoryScreens;
+using Blog.Screens.PostScreens;
 using Blog.Screens.PostTagScreens;
 using Blog.Screens.RoleScreens;
 using Blog.Screens.RoleUserScreen;
@@ -10,10 +11,8 @@ namespace Blog.Screens.HomeScreens
 {
     public class MenuHomeScreen
     {
-        public static void Load()
-        {
-            Menu();
-        }
+        public static void Load() => Menu();
+
         private static void Menu()
         {
             //Console.Clear();
@@ -26,10 +25,11 @@ namespace Blog.Screens.HomeScreens
             System.Console.WriteLine("2 - Gestão de Perfil/Role");
             System.Console.WriteLine("3 - Gestão de Categoria");
             System.Console.WriteLine("4 - Gestão de Tag");
-            System.Console.WriteLine("5 - Vincular Perfil/Usuario");
-            System.Console.WriteLine("6 - Vincular Post/Tag");
-            System.Console.WriteLine("7 - Reports");
-            System.Console.WriteLine("8 - Exit");
+            System.Console.WriteLine("5 - Gestão de Post");
+            System.Console.WriteLine("6 - Vincular Perfil/Usuario");
+            System.Console.WriteLine("7 - Vincular Post/Tag");
+            System.Console.WriteLine("8 - Reports");
+            System.Console.WriteLine("9 - Exit");
             System.Console.WriteLine();
             System.Console.WriteLine();
             var option = short.Parse(Console.ReadLine()!);
@@ -49,14 +49,18 @@ namespace Blog.Screens.HomeScreens
                     MenuTagScreen.Load();
                     break;
                 case 5:
-                    MenuRoleUserScreen.Run();
+                    MenuPostScreen.Load();
                     break;
                 case 6:
-                    MenuPostTagScreen.Load();
+                    MenuRoleUserScreen.Run();
                     break;
                 case 7:
+                    MenuPostTagScreen.Load();
                     break;
                 case 8:
+
+                    break;
+                case 9:
                     CloseHomeScreen.Run();
                     break;
                 default:

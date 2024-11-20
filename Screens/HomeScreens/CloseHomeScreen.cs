@@ -7,8 +7,7 @@ namespace Blog.Screens.HomeScreens
 {
     public class CloseHomeScreen
     {
-        public static void Run()
-        { Close(); }
+        public static void Run() => Close();
 
         private static void Close()
         {

@@ -26,22 +26,11 @@ NESTE PROJETO ESTAMOS UTILIZANDO AS FEATURES ABAIXO:
     -Cadastrar um Perfil
     -Ler Perfil (Todos e por Id)
     -Vincular um Usuario a um Perfil
-
+    -Vincular um POST a uma Tag
+    -Cadastrar um Post
 ----------------------- TO DO -----------------------------------------
        --DOING
         Perfil/Roles
-
-
-    
-
-
-
-
-
-    -Cadastrar um Post
-    -Vincular um POST a uma Tag
-
-
 
 
     -Listar Tags com quantidade de Posts
