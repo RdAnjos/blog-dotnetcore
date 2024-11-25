@@ -3,7 +3,7 @@ using Blog.Repositories;
 using Dapper;
 using Microsoft.Data.SqlClient;
 
-namespace blog.Repositories
+namespace Blog.Repositories
 {
     public class TagPostsRepository : Repository<Tag>
     {
@@ -27,15 +27,15 @@ namespace blog.Repositories
                             [Tag].[Name],
                             [Tag].[Slug],
                             [Post].[Id]";
-            
+
             var listTags = new List<Tag>();
 
             var items = _connection.Query<Tag, Post, Tag>(
                 query,
-                (tag, post) => 
+                (tag, post) =>
                 {
                     var tags = listTags.FirstOrDefault(t => t.Id == tag.Id);
-                    
+
                     if (tags == null)
                     {
                         tags = tag;
@@ -45,7 +45,7 @@ namespace blog.Repositories
                         }
                         listTags.Add(tags);
                     }
-                    else 
+                    else
                     {
                         tags.Posts.Add(post);
                     }
@@ -53,6 +53,6 @@ namespace blog.Repositories
                 }, splitOn: "Id");
             return listTags;
         }
-        
+
     }
 }

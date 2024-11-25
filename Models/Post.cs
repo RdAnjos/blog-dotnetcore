@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Dapper.Contrib.Extensions;
 
 namespace Blog.Models
@@ -9,6 +5,9 @@ namespace Blog.Models
     [Table("[Post]")]
     public class Post
     {
+        public Post()
+            => Tags = new List<Tag>();
+
         public int Id { get; set; }
         public string Title { get; set; }
         public string Summary { get; set; }
@@ -21,6 +20,9 @@ namespace Blog.Models
         // Ex: Muitos [Posts] para 1 [Categoria e Author]
         public int CategoryId { get; set; }
         public int AuthorId { get; set; }
+
+        [Write(false)]
+        public List<Tag> Tags { get; set; }
 
     }
 }

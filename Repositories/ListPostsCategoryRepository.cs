@@ -9,7 +9,7 @@ using Dapper;
 using Microsoft.Data.SqlClient;
 using Microsoft.Identity.Client;
 
-namespace blog.Repositories
+namespace Blog.Repositories
 {
     public class ListPostsCategoryRepository : Repository<Category>
     {

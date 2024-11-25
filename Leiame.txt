@@ -30,16 +30,17 @@ NESTE PROJETO ESTAMOS UTILIZANDO AS FEATURES ABAIXO:
     -Cadastrar um Post
     -Listar Tags com quantidade de Posts
     -Listar os Posts de uma Categoria
+    -Listar os Posts com suas Tags(Separados por virgula)
 ----------------------- TO DO -----------------------------------------
        --DOING
 
         Perfil/Roles
 
-
+gigit
     
 
     -Listar todos os Posts com sua Categoria
-    -Listar os Posts com suas Tags(Separados por virgula)
+
 
 -------------------------------------------------------------------------------------
 TIPS - Dicas de Projetos para Fazer

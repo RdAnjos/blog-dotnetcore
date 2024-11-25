@@ -1,12 +1,7 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using blog.Repositories;
-using Blog;
+using Blog.Repositories;
 using Microsoft.Data.SqlClient;
 
-namespace blog.Screens.CategoryScreens
+namespace Blog.Screens.CategoryScreens
 {
     public class ListPostsFromCategoryScreen
     {

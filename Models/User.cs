@@ -1,6 +1,5 @@
 using Dapper.Contrib.Extensions;
 
-
 namespace Blog.Models
 {
     //NOTAÇÃO OU METADADOS - fizemos isso para o Dapper Contrib conseguir acessar essa tabela pois, ele tende a pluralizar os nome das tabelas.

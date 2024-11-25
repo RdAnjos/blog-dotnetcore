@@ -1,8 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using blog.Repositories;
+using Blog.Repositories;
 using Microsoft.Data.SqlClient;
 
 namespace Blog.Screens.PostTagScreens
