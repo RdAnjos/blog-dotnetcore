@@ -28,14 +28,16 @@ NESTE PROJETO ESTAMOS UTILIZANDO AS FEATURES ABAIXO:
     -Vincular um Usuario a um Perfil
     -Vincular um POST a uma Tag
     -Cadastrar um Post
+    -Listar Tags com quantidade de Posts
+    -Listar os Posts de uma Categoria
 ----------------------- TO DO -----------------------------------------
        --DOING
-       -Listar Tags com quantidade de Posts
+
         Perfil/Roles
 
 
     
-    -Listar os Posts de uma Categoria
+
     -Listar todos os Posts com sua Categoria
     -Listar os Posts com suas Tags(Separados por virgula)
 

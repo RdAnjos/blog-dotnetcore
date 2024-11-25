@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using blog.Screens.CategoryScreens;
 using Blog.Screens.HomeScreens;
 
 namespace Blog.Screens.CategoryScreens
@@ -24,7 +25,8 @@ namespace Blog.Screens.CategoryScreens
             System.Console.WriteLine("2 - Create a new Category");
             System.Console.WriteLine("3 - Update a Category.");
             System.Console.WriteLine("4 - Delete a Category.");
-            System.Console.WriteLine("5 - Return to Main Menu");
+            System.Console.WriteLine("5 - List Posts from Category");
+            System.Console.WriteLine("6 - Return to Main Menu");
             System.Console.WriteLine("");
             var option = int.Parse(Console.ReadLine());
 
@@ -43,6 +45,9 @@ namespace Blog.Screens.CategoryScreens
                     DeleteCagegoryScreen.Load();
                     break;
                 case 5:
+                    ListPostsFromCategoryScreen.Init();
+                    break;
+                case 6:
                     MenuHomeScreen.Load();
                     break;
                 default:
