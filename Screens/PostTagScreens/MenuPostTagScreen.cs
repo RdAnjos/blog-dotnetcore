@@ -12,64 +12,38 @@ namespace Blog.Screens.PostTagScreens
     {
         public static void Load()
         {
-            Console.Clear();
-
-            System.Console.WriteLine("Vinculando um Post a uma Tag.");
-            System.Console.WriteLine("-----------------------------");
-            System.Console.WriteLine("Enter a Post ID: ");
-            var postId = int.Parse(Console.ReadLine());
-            System.Console.WriteLine("Enter a Tag ID: ");
-            var tagId = int.Parse(Console.ReadLine());
-
-            ConectPostAndTag(new PostTag
-            {
-                PostId = postId,
-                TagId = tagId
-            });
-
-            System.Console.WriteLine("Press any key to return to Main Menu.");
-            Console.ReadKey();
-            MenuHomeScreen.Load();
-        }
-        private static void ConectPostAndTag(PostTag postTag)
-        {
-            bool isValid = ValidPostAndTag(postTag);
-            if (isValid)
-            {
-                try
-                {
-                    var repositoryPostTag = new Repository<PostTag>();
-                    repositoryPostTag.Create(postTag);
-                    System.Console.WriteLine("Link has been created.");
-                }
-                catch (System.Exception ex)
-                {
-                    // TODO
-                    System.Console.WriteLine("Ocurred an error to try create a link with Post and Tag.");
-                    System.Console.WriteLine(ex.Message);
-                }
-            }
-            else
-            {
-                System.Console.WriteLine("Post ID or Tag ID does not exists!");
-            }
-
-
+            Menu();
         }
 
-        private static bool ValidPostAndTag(PostTag postTag)
+        private static void Menu()
         {
-            var repositoryPost = new Repository<Post>();
-            var repositoryTag = new Repository<Tag>();
+            //Console.Clear();
+            
+            System.Console.WriteLine("Menu Post & Tag Screen...");
+            System.Console.WriteLine("-------------------------");
+            System.Console.WriteLine("1 - Link Post with a Tag");
+            System.Console.WriteLine("2 - Listing Tags with Posts Quantity");
+            System.Console.WriteLine("3 - Return to Main Menu");
+            System.Console.WriteLine();
+            System.Console.WriteLine();
+            
+            var option = int.Parse(Console.ReadLine());
 
-            var post = repositoryPost.GetById(postTag.PostId);
-            var tag = repositoryTag.GetById(postTag.TagId);
-
-            if (post != null && tag != null)
+            switch (option)
             {
-                return true;
+                case 1:
+                    LinkPostWithTagScreen.Load();
+                    break;
+                case 2:
+                    ListTagWithPostsQuantityScreen.Init();
+                    break;
+                 case 3:
+                    MenuHomeScreen.Load();
+                    break;                   
+                default:
+                    Load();
+                    break;
             }
-            return false;
         }
     }
 }

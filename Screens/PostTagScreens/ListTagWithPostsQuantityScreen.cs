@@ -20,11 +20,10 @@ namespace Blog.Screens.PostTagScreens
 
             foreach (var tag in tags)
             {
+                System.Console.WriteLine();
+                System.Console.WriteLine($"Tag ID: {tag.Id}, Tag Name: {tag.Name}, Posts: {tag.Posts.Count}");
+                System.Console.WriteLine("-------------------------------------------------------");
 
-                    System.Console.WriteLine();
-                    System.Console.WriteLine($"Tag ID: {tag.Id}, Tag Name: {tag.Name}, Posts: {tag.Posts.Count}");
-                    System.Console.WriteLine("-------------------------------------------------------");
-                
             }
         }
     }

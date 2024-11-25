@@ -30,10 +30,11 @@ NESTE PROJETO ESTAMOS UTILIZANDO AS FEATURES ABAIXO:
     -Cadastrar um Post
 ----------------------- TO DO -----------------------------------------
        --DOING
+       -Listar Tags com quantidade de Posts
         Perfil/Roles
 
 
-    -Listar Tags com quantidade de Posts
+    
     -Listar os Posts de uma Categoria
     -Listar todos os Posts com sua Categoria
     -Listar os Posts com suas Tags(Separados por virgula)

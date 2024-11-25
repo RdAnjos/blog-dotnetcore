@@ -14,7 +14,7 @@ namespace Blog
 
             MenuHomeScreen.Load();
 
-            Console.ReadKey();
+            //Console.ReadKey();
             Database.Connection.Close();
         }
     }
