@@ -6,7 +6,11 @@ namespace Blog.Models
     public class Post
     {
         public Post()
-            => Tags = new List<Tag>();
+        {
+            Tags = new List<Tag>();
+            Categories = new List<Category>();
+        }
+
 
         public int Id { get; set; }
         public string Title { get; set; }
@@ -23,6 +27,9 @@ namespace Blog.Models
 
         [Write(false)]
         public List<Tag> Tags { get; set; }
+
+        [Write(false)]
+        public List<Category> Categories { get; set; }
 
     }
 }

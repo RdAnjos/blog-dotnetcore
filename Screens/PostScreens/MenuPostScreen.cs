@@ -16,7 +16,8 @@ namespace Blog.Screens.PostScreens
             System.Console.WriteLine("2 - Read a Post");
             System.Console.WriteLine("3 - Update a Post");
             System.Console.WriteLine("4 - Delete a Post");
-            System.Console.WriteLine("5 - Return to Main Menu");
+            System.Console.WriteLine("5 - List All Posts and its Categories");
+            System.Console.WriteLine("6 - Return to Main Menu");
 
             var option = int.Parse(Console.ReadLine());
 
@@ -33,6 +34,9 @@ namespace Blog.Screens.PostScreens
                 case 4:
                     break;
                 case 5:
+                    ListPostCategoriesScreen.Load();
+                    break;
+                case 6:
                     MenuHomeScreen.Load();
                     break;
                 default:

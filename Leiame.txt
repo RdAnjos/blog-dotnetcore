@@ -31,15 +31,12 @@ NESTE PROJETO ESTAMOS UTILIZANDO AS FEATURES ABAIXO:
     -Listar Tags com quantidade de Posts
     -Listar os Posts de uma Categoria
     -Listar os Posts com suas Tags(Separados por virgula)
+    -Listar todos os Posts com sua Categoria
 ----------------------- TO DO -----------------------------------------
        --DOING
 
-        Perfil/Roles
+        -Perfil/Roles
 
-gigit
-    
-
-    -Listar todos os Posts com sua Categoria
 
 
 -------------------------------------------------------------------------------------
